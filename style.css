@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body h1{
+	font-family: "Montserrat" , sans-serif;
+     
+}
+
+
+.content{
+    background-color:cadetblue;
+    padding-bottom:250px; 
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border-color: 5px solid black;
+    
+}
+
+#main-header{
+    padding-top: 50px;
+    padding-left: 200px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+
+.result{
+    padding-left: 200px;
+}
+
+td{
+    font-size: 30px;
+    line-height: 40px;
+    padding-top: 20px;
+}
+#gOutput{
+    padding-left: 10px;
+}
+
+
+#nightToggle{
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+.bg {
+    background-color: black;
+    color: white;
+} 

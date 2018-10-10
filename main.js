@@ -17,3 +17,7 @@ kgInput.addEventListener('input', event => {
     pOutput.innerHTML = `${(kg * 2.20462262).toFixed(2)} lb`;
     zOutput.innerHTML = `${(kg * 35.2739619).toFixed(2)} oz`;
 });
+
+nightToggle.addEventListener('click', event => {
+    body.classList.toggle('bg');
+});
